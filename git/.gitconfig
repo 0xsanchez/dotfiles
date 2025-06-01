@@ -1,0 +1,12 @@
+[user]
+	email = 
+	name = 
+	signingkey = 
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main

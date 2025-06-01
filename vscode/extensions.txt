@@ -1,0 +1,4 @@
+https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
+https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
+https://marketplace.visualstudio.com/items?itemName=golang.Go
