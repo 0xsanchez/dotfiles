@@ -1,0 +1,84 @@
+{
+	// font
+	"workbench.colorTheme": "Aura Dark",
+	"editor.fontFamily": "CommitMono",
+	"editor.fontWeight": "bold",
+	"editor.fontSize": 14,
+	"editor.fontLigatures": false,
+	"editor.lineNumbers": "on",
+	"editor.renderLineHighlight": "none",
+	"editor.glyphMargin": false,
+	"editor.guides.indentation": true,
+	"editor.minimap.enabled": false,
+	"window.closeWhenEmpty": true,
+	"window.menuBarVisibility": "visible",
+	"workbench.activityBar.location": "hidden",
+	"workbench.enableExperiments": false,
+	"chat.commandCenter.enabled": false,
+	// explorer
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmPasteNative": false,
+	// cursor
+	"editor.cursorBlinking": "solid",
+	"editor.cursorStyle": "block",
+	"editor.cursorSurroundingLines": 10,
+	// behaviour
+	"editor.autoClosingBrackets": "never",
+	"editor.folding": false,
+	"editor.formatOnSave": true,
+	"editor.roundedSelection": false,
+	"editor.stickyScroll.enabled": false,
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	// suggestions
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": {
+		"comments": false,
+		"other": true,
+		"strings": false
+	},
+	"editor.wordBasedSuggestions": "off",
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	// vim
+	"vim.cursorStylePerMode.insert": "block",
+	"vim.cursorStylePerMode.normal": "block",
+	"vim.useCtrlKeys": true,
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-b>": false,
+		"<C-e>": false,
+		"<C-f>": false,
+		"<C-n>": false
+	},
+	"vim.surround": true,
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"s",
+				"r"
+			],
+			"after": [
+				"g",
+				"s"
+			]
+		}
+	],
+	"vim.useSystemClipboard": true,
+	// additional
+	"editor.accessibilitySupport": "off",
+	"extensions.ignoreRecommendations": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"telemetry.telemetryLevel": "off",
+	"security.allowedUNCHosts": [
+		"wsl.localhost"
+	],
+	"window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}",
+	"workbench.startupEditor": "none",
+	"files.exclude": {
+		"**/.tmp.driveupload": true,
+		"**/.tmp.drivedownload": true
+	}
+}

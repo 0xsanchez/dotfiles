@@ -1,0 +1,24 @@
+[window]
+dimensions = { columns = 120, lines = 40 }
+padding = { x = 2, y = 2 }
+
+[font]
+normal = { family = "CommitMono", style = "Bold" }
+bold = { family = "CommitMono", style = "Bold" }
+italic = { family = "CommitMono", style = "Italic" }
+bold_italic = { family = "CommitMono", style = "Bold Italic" }
+
+[cursor.style]
+shape = "Block"
+blinking = "Never"
+
+[cursor.vi_mode_style]
+shape                 = "Block"
+blinking              = "Off"
+
+[mouse]
+hide_when_typing = true
+
+[terminal.shell]
+args = ["--cd ~"]
+program = 'C:\Windows\System32\wsl.exe'
