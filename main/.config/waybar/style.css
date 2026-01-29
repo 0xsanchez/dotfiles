@@ -1,0 +1,37 @@
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+}
+window#waybar {
+    background-color: #24242C;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+#network {
+    margin-right: 10px;
+}
+
+#workspaces {
+    margin-left: 8px;
+}
+
+#workspaces button {
+    transition: all ease 200ms;
+    margin: 10px;
+    border: none;
+    background: transparent;
+}
+
+#workspaces button:hover {
+    color: #7f6e9f;
+}
+
+#workspaces button.active {
+    color: #71638D;
+}
+
+tooltip {
+    background-color:#202027 ;
+}
