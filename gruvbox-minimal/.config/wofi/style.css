@@ -1,0 +1,26 @@
+* {
+    all:unset;
+    font-family: JetBrainsMono Nerd Font;
+    color: #D0D2CA;
+}
+
+window {
+    background-color: #1E2021;
+}
+
+#outer-box {
+    padding: 10px;
+}
+#input {
+    border: 2px solid #D45D10;
+    margin: 10px;
+    padding: 10px;
+}
+#inner-box #entry {
+    margin-top: 10px;
+}
+#entry:selected {
+    padding: 5px;
+    background-color: #D45D10;
+    border: #1E2021 2px solid;
+}
