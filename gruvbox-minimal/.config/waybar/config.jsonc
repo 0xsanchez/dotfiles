@@ -5,7 +5,7 @@
     "height": 30,
     "modules-left": ["hyprland/workspaces", "network", "wireplumber"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["cpu", "clock"],
+    "modules-right": ["memory", "cpu", "clock"],
     "spacing": 15,
 
     "hyprland/window": {
