@@ -9,7 +9,7 @@
     "margin-bottom": 0,
     "modules-left": ["custom/pyicon", "hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock", "wireplumber"],
-    "modules-right": ["memory", "cpu", "custom/poweroff"],
+    "modules-right": ["memory", "battery", "cpu", "custom/poweroff"],
     "spacing": 16,
 
     "hyprland/window": {
@@ -48,9 +48,14 @@
         "format": "\udb80\udc02 {ifname}"
     },
 
+    "battery": {
+	"format": "{icon} {capacity}%",
+	"format-icons": ["\uf244", "\uf243", "\uf241", "\uf240"]
+    },
+
     "hyprland/workspaces": {
         "persistent-workspaces": {
-            "*": 9
+            "*": 6
         }
     }
 
