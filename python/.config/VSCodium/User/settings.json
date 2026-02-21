@@ -11,4 +11,5 @@
     "workbench.layoutControl.enabled": false,
     "workbench.editor.enablePreview": false,
     "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.stickyScroll.enabled": false,
 }
