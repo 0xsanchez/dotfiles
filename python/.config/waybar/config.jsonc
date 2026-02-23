@@ -50,7 +50,10 @@
 
     "battery": {
 	"format": "{icon} {capacity}%",
-	"format-icons": ["\uf244", "\uf243", "\uf241", "\uf240"]
+	"format-icons": {
+        "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+        }
     },
 
     "hyprland/workspaces": {
