@@ -1,5 +1,4 @@
 {
-    "reload_config_on_change": true,
     "reload_style_on_change": true,
     "position": "top",
     "height": 35,
@@ -8,14 +7,19 @@
     "margin-right": 14,
     "margin-bottom": 0,
     "modules-left": ["custom/pyicon", "hyprland/workspaces", "hyprland/window"],
-    "modules-center": ["clock", "wireplumber"],
-    "modules-right": ["memory", "battery", "cpu", "custom/poweroff"],
+    "modules-center": ["clock", "wirelumber"],
+    "modules-right": ["hyprland/language", "memory", "battery", "cpu", "custom/poweroff"],
     "spacing": 16,
 
     "hyprland/window": {
         "format": "{title}",
         "max-length": 40
     },
+
+    "hyprland/language": {
+	"format": "󰌌 {short}"
+    },
+
     "custom/pyicon": {
         "format": "\ue73c"
     },
