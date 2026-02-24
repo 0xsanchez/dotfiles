@@ -1,0 +1,18 @@
+[global]
+width = 300
+height = (40, 60)
+format = "%i<b>%a</b>\n%b"
+
+font = JetBrainsMono
+notification_limit = 6
+
+
+origin = top-right
+offset = (18, 10)
+
+frame_width = 2
+gap_size = 3
+
+background = "#1c1c23"
+foreground = "#d0d2ca"
+timeout = 2
