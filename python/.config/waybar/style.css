@@ -11,35 +11,32 @@ window#waybar {
     border-radius: 10px;
 }
 
-#custom-pyicon {
-    margin-left: 20px;
-    font-size: 20px;
-    color: #5e81ac;
-}
 #custom-poweroff {
-    margin-right: 20px;
+    margin-right: 10px;
+}
+#custom-code {
+    margin-left: 14px;
 }
 
 #workspaces {
+    margin-left: 2px;
     padding: 5px 0;
 }
 #workspaces button {
     padding: 0 12px;
     border-radius: 5px;
 }
-
 #workspaces button label {
     transition: all ease 200ms;
 }
-
 #workspaces button:hover {
     background-color: #6991b5;
 }
-
 #workspaces button.active {
     background-color: #6991b5;
 }
 
 tooltip {
-    background-color:#6991b5;
+    background-color:#24242c;
+    border-radius: 4px;
 }

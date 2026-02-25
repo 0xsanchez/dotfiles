@@ -6,27 +6,34 @@
     "margin-left": 14,
     "margin-right": 14,
     "margin-bottom": 0,
-    "modules-left": ["custom/pyicon", "hyprland/workspaces", "hyprland/window"],
-    "modules-center": ["clock", "wirelumber"],
-    "modules-right": ["hyprland/language", "memory", "battery", "cpu", "custom/poweroff"],
+    "modules-left": ["custom/code" , "hyprland/workspaces", "network"],
+    "modules-center": ["clock"],
+    "modules-right": ["hyprland/language","wireplumber", "memory", "battery", "cpu", "custom/poweroff"],
     "spacing": 16,
 
-    "hyprland/window": {
-        "format": "{title}",
-        "max-length": 40
+    "network": {
+        "format": "{icon} {ifname} | IP: {ipaddr} | GW: {gwaddr}",
+        "format-disconnected": "{icon} {ifname} Disconnected",
+        "format-icons": {
+            "wifi": [""],
+            "ethernet": [""],
+            "disconnected": [""]
+        }
     },
 
     "hyprland/language": {
 	"format": "󰌌 {short}"
     },
 
-    "custom/pyicon": {
-        "format": "\ue73c"
-    },
-
     "custom/poweroff": {
         "format": "\uf011 {icon}",
         "on-click": "poweroff"
+    },
+
+    "custom/code": {
+        "format": "",
+        "on-click": "vscodium",
+        "tooltip-format": "Open the vscodium"
     },
 
     "clock": {
@@ -48,10 +55,6 @@
 
     },
 
-    "network": {
-        "format": "\udb80\udc02 {ifname}"
-    },
-
     "battery": {
 	"format": "{icon} {capacity}%",
 	"format-icons": {
@@ -62,7 +65,7 @@
 
     "hyprland/workspaces": {
         "persistent-workspaces": {
-            "*": 6
+            "*": 4
         }
     }
 
