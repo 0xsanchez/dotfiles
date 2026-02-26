@@ -8,7 +8,7 @@
     "margin-bottom": 0,
     "modules-left": ["custom/code" , "hyprland/workspaces", "network"],
     "modules-center": ["clock"],
-    "modules-right": ["hyprland/language","wireplumber", "memory", "battery", "cpu", "custom/poweroff"],
+    "modules-right": ["custom/warp" ,"hyprland/language","wireplumber", "memory", "battery", "cpu", "custom/poweroff"],
     "spacing": 16,
 
     "network": {
@@ -28,6 +28,13 @@
     "custom/poweroff": {
         "format": "\uf011 {icon}",
         "on-click": "poweroff"
+    },
+
+    "custom/warp" : {
+        "exec": "warp-cli status | grep -Po 'Disconnected|Connected|Connecting'",
+        "on-click": "sh ~/.scripts/warp-toggle.sh",
+        "interval": 2,
+        "format": "| 󰒃 Warp: {text} |"
     },
 
     "custom/code": {
