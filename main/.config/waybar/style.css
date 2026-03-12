@@ -37,6 +37,8 @@ window#waybar {
 }
 
 tooltip {
-    background-color:#24242c;
+    background-color: #212732;
     border-radius: 4px;
+    font-family: "monospace";
+    font-size: 14px;
 }

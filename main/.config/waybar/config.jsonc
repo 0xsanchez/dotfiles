@@ -44,7 +44,8 @@
     },
 
     "clock": {
-        "format": "\udb81\udd1f {:%H:%M / %d.%m.%Y}"
+        "format": "\udb81\udd1f {:%H:%M / %d.%m.%Y}",
+        "tooltip-format": "<tt>{calendar}</tt>"
     },
 
     "memory": {

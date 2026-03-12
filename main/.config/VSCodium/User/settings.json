@@ -12,4 +12,6 @@
     "workbench.editor.enablePreview": false,
     "git.openRepositoryInParentFolders": "never",
     "terminal.integrated.stickyScroll.enabled": false,
+    "python.defaultInterpreterPath": "/home/sanchez/NewsWebsite/.venv",
+    "clangd.path": "/home/sanchez/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.8/clangd_21.1.8/bin/clangd",
 }

@@ -1,1 +1,0 @@
-grim -g "$(slurp)" - | tee ~/Pictures/screenshots/$(date '+%H-%M-%S').png | wl-copy
